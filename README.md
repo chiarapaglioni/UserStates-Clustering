@@ -10,12 +10,16 @@ This project uses unsupervised and supervised machine learning to **cluster athl
 
 using **self-reported emotional states**, **text reflections**, and **wearable sensor data**. It also includes strategies to **impute missing emotion data** and enhance predictions using partial data.
 
+![pipeline](/plots/user-pipeline.png)
+
 ### Project Structure
 Below is an overview of the project structure. 
 
 ```sh
 .
  |-data
+ |-plots
+ |-EDA.ipynb
  |-Athletes-Clustering.ipynb
  |-Graph_temporal_network.ipynb
  |-Athletes-Prediction.ipynb
@@ -24,12 +28,18 @@ Below is an overview of the project structure.
 ```
 
 where: 
+- **data**: 
+    - folder containing data in CSV format
+- **plots**: 
+    - folder containing plots and figures
+- **EDA.ipynb**: 
+    - Performs EDA and Data Analysis of datasets
 - **Athletes-Clustering.ipynb**: 
-    - performs EDA and Data Preprocessing of __raw_data.csv__ 
+    - Data Preprocessing of __raw_data.csv__ 
     - uses an NLP based approach to predict missing emotion values
     - performs clustering of complete data with KMeans and visualise it with PCA
 - **Graph_temporal_network.ipynb**: 
-    - performs EDA and Data Preprocessing of the __raw_data.csv__  
+    - Data Preprocessing of the __raw_data.csv__  
     - uses an Graph based approach to predict missing emotion values
     - performs clustering of complete data with KMeans and visualise it with PCA
 - **Athletes-Prediction.ipynb**: 

@@ -6,3 +6,4 @@ torch==2.2.2
 scikit-learn==1.6.1
 scipy==1.13.1
 tensorflow==2.16.2
+torch_geometric==2.6.1
