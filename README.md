@@ -17,9 +17,9 @@ Below is an overview of the project structure.
 .
  |-data
  |-Athletes-Clustering.ipynb
+ |-Graph_temporal_network.ipynb
  |-Athletes-Prediction.ipynb
  |-Wearable-Data.ipynb
- |-Data_processing_and_EDA.ipynb
  |-requirements.txt
 ```
 
@@ -28,7 +28,7 @@ where:
     - performs EDA and Data Preprocessing of __raw_data.csv__ 
     - uses an NLP based approach to predict missing emotion values
     - performs clustering of complete data with KMeans and visualise it with PCA
-- **Data_processing_and_EDA.ipynb**: 
+- **Graph_temporal_network.ipynb**: 
     - performs EDA and Data Preprocessing of the __raw_data.csv__  
     - uses an Graph based approach to predict missing emotion values
     - performs clustering of complete data with KMeans and visualise it with PCA
